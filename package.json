@@ -1,0 +1,22 @@
+{
+  "name": "nomad-graphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iamidlek/Exr-graphQL",
+  "author": "yhc",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.1.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
+}
