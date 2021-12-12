@@ -5,6 +5,7 @@
   "repository": "https://github.com/iamidlek/Exr-graphQL",
   "author": "yhc",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "axios": "^0.24.0",
     "graphql-yoga": "^1.18.3",
